@@ -1,0 +1,16 @@
+header{
+    min-height:150px;
+}
+
+h1{
+    text-align:center;
+    margin-bottom: 50px;
+}
+
+#start{
+    border-radius: 12px;
+    font-size: 3em;
+    text-align: center;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding: 10px 36px;
+}

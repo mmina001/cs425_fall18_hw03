@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<multiple_choice_questions_game>
+<questions_difficulty>
+<multiple_choice_question>
+    <question>A piece of icon or image on a web page associated with another webpage is called</question>
+    <choice>URL</choice>
+    <choice>plugin</choice>
+    <choice>hyperlink</choice>
+    <choice>none of the mentioned</choice>
+    <correct>hyperlink</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>Dynamic web page</question>
+    <choice>is same every time whenever it displays</choice>
+    <choice>generates on demand by a program or a request from browser</choice>
+    <choice>both (a) and (b)</choice>
+    <choice>none of the mentioned</choice>
+    <correct>generates on demand by a program or a request from browser</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>What is a web browser?</question>
+    <choice>a program that can display a web page</choice>
+    <choice>a program used to view html documents</choice>
+    <choice>it enables user to access the resources of internet</choice>
+    <choice>all of the mentioned</choice>
+    <correct>all of the mentioned</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>Common gateway interface is used to</question>
+    <choice>generate executable files from web content by web server</choice>
+    <choice>generate web pages</choice>
+    <choice>stream videos</choice>
+    <choice>none of the mentioned</choice>
+    <correct>generate executable files from web content by web server</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>URL stands for</question>
+    <choice>unique reference label</choice>
+    <choice>uniform reference label</choice>
+    <choice>uniform resource locator</choice>
+    <choice>unique resource locator</choice>
+    <correct>uniform resource locator</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>A web cookie is a small piece of data</question>
+    <choice>sent from a website and stored in user’s web browser while a user is browsing a website</choice>
+    <choice>sent from user and stored in the server while a user is browsing a website</choice>
+    <choice>sent from root server to all servers</choice>
+    <choice>none of the mentioned</choice>
+    <correct>sent from a website and stored in user’s web browser while a user is browsing a website</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>Which one of the following is not used to generate dynamic web pages?</question>
+    <choice>PHP</choice>
+    <choice>ASP.NET</choice>
+    <choice>JSP</choice>
+    <choice>none of the mentioned</choice>
+    <correct>none of the mentioned</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>What is document object model (DOM)?</question>
+    <choice>convention for representing and interacting with objects in html documents</choice>
+    <choice>application programming interface</choice>
+    <choice>hierarchy of objects in ASP.NET</choice>
+    <choice>none of the mentioned</choice>
+    <correct>convention for representing and interacting with objects in html documents</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>AJAX stands for</question>
+    <choice>asynchronous javascript and xml</choice>
+    <choice>advanced JSP and xml</choice>
+    <choice>asynchronous JSP and xml</choice>
+    <choice>advanced javascript and xml</choice>
+    <correct>asynchronous javascript and xml</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>_________ is a repository of information linked together from points all over the world.</question>
+    <choice>The WWW</choice>
+    <choice>HTTP</choice>
+    <choice>HTML</choice>
+    <choice>none of the mentioned</choice>
+    <correct>The WWW</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>The _________ is a standard for specifying any kind of information on the Internet.</question>
+    <choice>URL</choice>
+    <choice>ULR</choice>
+    <choice>RLU</choice>
+    <choice>none of the mentioned</choice>
+    <correct>URL</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>A piece of icon or image on a web page associated with another webpage is called</question>
+    <choice>URL</choice>
+    <choice>plugin</choice>
+    <choice>hyperlink</choice>
+    <choice>none of the mentioned</choice>
+    <correct>hyperlink</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>In a URL, the _______ is the client-server program used to retrieve the document.</question>
+    <choice>path</choice>
+    <choice>protocol</choice>
+    <choice>host</choice>
+    <choice>none of the above</choice>
+    <correct>protocol</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>In a URL, the ______ is the computer on which the information is located.</question>
+    <choice>path</choice>
+    <choice>protocol</choice>
+    <choice>host</choice>
+    <choice>none of the above</choice>
+    <correct>host</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>In a URL, an optional ________ can be inserted between the host and the path, and it is separated from the host by a colon.</question>
+    <choice>path</choice>
+    <choice>protocol</choice>
+    <choice>host</choice>
+    <choice>none of the above</choice>
+    <correct>none of the above</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>In a URL, the _______ is the full name of the file where the information is located.</question>
+    <choice>path</choice>
+    <choice>protocol</choice>
+    <choice>host</choice>
+    <choice>none of the above</choice>
+    <correct>path</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>www is based on which model?</question>
+    <choice>Local-server</choice>
+    <choice>Client-server</choice>
+    <choice>3-tier</choice>
+    <choice>None of these</choice>
+    <correct>Client-server</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>.net domain is used for</question>
+    <choice>educational institution</choice>
+    <choice>Internet infrastructure and service providers</choice>
+    <choice>International organizations</choice>
+    <choice>None Of the above</choice>
+    <correct>Internet infrastructure and service providers</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>What are cookies?</question>
+    <choice>Cookies are text files stored on the client computer and they are kept for various information tracking purpose.</choice>
+    <choice>Cookies are binary files stored on the server computer and they are kept for various information tracking purpose.</choice>
+    <choice>Cookies are binary files stored on the client computer and they are kept for data storage purpose.</choice>
+    <choice>None of the above.</choice>
+    <correct>Cookies are text files stored on the client computer and they are kept for various information tracking purpose.</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>Which of the following is not an example of search engine?</question>
+    <choice>Google</choice>
+    <choice>Gmail</choice>
+    <choice>Yahoo</choice>
+    <choice>Altavista</choice>
+    <correct>Gmail</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>A dial-up connection enables to connect to ISP using a</question>
+    <choice>Modem</choice>
+    <choice>Router</choice>
+    <choice>Gateways</choice>
+    <choice>Bridge</choice>
+    <correct>Modem</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>Which of the following is an example of Web browser?</question>
+    <choice>Yahoo</choice>
+    <choice>Google</choice>
+    <choice>Mozilla Firefox</choice>
+    <choice>Gmail</choice>
+    <correct>Mozilla Firefox</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>___________ forms the highest layer of TCP/IP and divides a message over file into smaller packets which are transmitted over the Internet.</question>
+    <choice>TCP</choice>
+    <choice>IP</choice>
+    <choice>Telnet</choice>
+    <choice>FTP</choice>
+    <correct>Telnet</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>A ________ is typically a database containing information about domain names and their correspondence IP address.</question>
+    <choice>Telnet</choice>
+    <choice>FTP</choice>
+    <choice>TCP</choice>
+    <choice>DNS</choice>
+    <correct>DNS</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>DNS is an Internet service that translates domain names to or from __________.</question>
+    <choice>MAC address</choice>
+    <choice>IP address</choice>
+    <choice>Both a and b</choice>
+    <choice>None of the above</choice>
+    <correct>IP address</correct>
+</multiple_choice_question>
+</questions_difficulty>
+<questions_difficulty>
+<multiple_choice_question>
+    <question>Which was the first search engine in the Internet?</question>
+    <choice>Google</choice>
+    <choice>Archie</choice>
+    <choice>Alta Vista</choice>
+    <choice>WAIS</choice>
+    <correct>Archie</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>Which protocol is used for secure communication over internet?</question>
+    <choice>IP</choice>
+    <choice>UDP</choice>
+    <choice>HTTP</choice>
+    <choice>HTTPS</choice>
+    <correct>HTTPS</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>_____ offer a quick and easy way to share files and resources directly.</question>
+    <choice>CD</choice>
+    <choice>USB</choice>
+    <choice>Network</choice>
+    <choice>None of the above</choice>
+    <correct>Network</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>Which of the following is the correct chronology of internet based facilities?</question>
+    <choice>Google, Hotmail, Facebook, Whatsapp</choice>
+    <choice>Facebook, Google, Hotmail, Whatsapp</choice>
+    <choice>Hotmail, Google, Facebook, Whatsapp</choice>
+    <choice>Hotmail, Facebook, Google, Whatsapp</choice>
+    <correct>Hotmail, Google, Facebook, Whatsapp</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>Who is the founder of Facebook?</question>
+    <choice>Glen Recort</choice>
+    <choice>Tim Berners Lee</choice>
+    <choice>Allen Turing</choice>
+    <choice>Mark Zuckerberg</choice>
+    <correct>Mark Zuckerberg</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>Which one of the following is not a Web Browser?</question>
+    <choice>Internet Explorer</choice>
+    <choice>MS Office</choice>
+    <choice>Safari</choice>
+    <choice>Mozilla Firefox</choice>
+    <correct>MS Office</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>What is the full form of PDF in the context of computer file system?</question>
+    <choice>Personalised Data Format</choice>
+    <choice>Pixel Digital File</choice>
+    <choice>Pictured Data Format</choice>
+    <choice>Portable Document Format</choice>
+    <correct>Portable Document Format</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>A social networking service offered by Google Inc.</question>
+    <choice>Facebook</choice>
+    <choice>Google+</choice>
+    <choice>Twitter</choice>
+    <choice>Instagram</choice>
+    <correct>Google+</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>ISP stands for</question>
+    <choice>International Server Protocol</choice>
+    <choice>Internal Storage Protocol</choice>
+    <choice>Internet Service Provider</choice>
+    <choice>Internet Storage Provider</choice>
+    <correct>Internet Service Provider</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>The Internet is a system of _____</question>
+    <choice>Software bundles</choice>
+    <choice>Web page</choice>
+    <choice>Web site</choice>
+    <choice>Interconnected Networks</choice>
+    <correct>Interconnected Networks</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>The Internet is an example of a ____ network.</question>
+    <choice>ring</choice>
+    <choice>bus</choice>
+    <choice>hybrid</choice>
+    <choice>mesh</choice>
+    <correct>mesh</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>In internet terminology IP means</question>
+    <choice>Internet Provider</choice>
+    <choice>Internet Protocol</choice>
+    <choice>Internet Procedure</choice>
+    <choice>Internet Processor</choice>
+    <correct>Internet Protocol</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>Its main purpose is to prohibit unauthorized access to your computer via the Internet.</question>
+    <choice>popup blocker</choice>
+    <choice>firewall</choice>
+    <choice>spyware blocker</choice>
+    <choice>spam</choice>
+    <correct>firewall</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>What do you need to put your web pages on the www ?</question>
+    <choice>a connection to internet</choice>
+    <choice>a web browser</choice>
+    <choice>a web server</choice>
+    <choice>all of the above</choice>
+    <correct>all of the above</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>_____ is a 32-bit number, normally expressed as four octets between the periods.</question>
+    <choice>Port</choice>
+    <choice>Domain name</choice>
+    <choice>IP address</choice>
+    <choice>None of these</choice>
+    <correct>IP address</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>The term DNS stands for</question>
+    <choice>Domain Name System</choice>
+    <choice>Defense Nuclear System</choice>
+    <choice>Downloadable New Software</choice>
+    <choice>Dependent Name Server</choice>
+    <correct>Domain Name System</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>IPv4 and IPv6 are addresses used to identify computers on the internet. Find the correct statement out of the following:</question>
+    <choice>Number of bits required for IPv4 address is more than number of bits required for IPv6 address.</choice>
+    <choice>Number of bits required for IPv4 address is same as number of bits required for IPv6 address.</choice>
+    <correct>Number of bits required for IPv4 address is less than number of bits required for IPv6 address.</correct>
+    <choice>Number of bits required for IPv4 address is 64.</choice>
+    <choice>Number of bits required for IPv4 address is less than number of bits required for IPv6 address.</choice>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>TCP/IP is necessary if one is to connect to the</question>
+    <choice>Phone lines</choice>
+    <choice>LAN</choice>
+    <choice>Internet</choice>
+    <choice>a Server</choice>
+    <correct>Internet</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>The software that enables the user to interact with the contents present on a web page?</question>
+    <choice>www</choice>
+    <choice>HTTP</choice>
+    <choice>Browser</choice>
+    <choice>URL</choice>
+    <correct>Browser</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>Google is an example of ___________.</question>
+    <choice>Entertainment</choice>
+    <choice>Search Engine</choice>
+    <choice>Social Network</choice>
+    <choice>None of these</choice>
+    <correct>Search Engine</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>Who is the father of Internet ?</question>
+    <choice>Vint Cerf</choice>
+    <choice>Tim Berners Lee</choice>
+    <choice>Charles Babbage</choice>
+    <choice>None of these</choice>
+    <correct>Vint Cerf</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>Who invented world wide web ?</question>
+    <choice>Tim Berners Lee</choice>
+    <choice>Sir Thomas</choice>
+    <choice>Charles Babbage</choice>
+    <choice>Vint Cerf</choice>
+    <correct>Tim Berners Lee</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>The standard protocol of the Internet is</question>
+    <choice>TCP/IP</choice>
+    <choice>SMTP</choice>
+    <choice>FTP</choice>
+    <choice>None of the above</choice>
+    <correct>TCP/IP</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>Which is the slowest Internet connection service?</question>
+    <choice>Cable modem</choice>
+    <choice>Land line</choice>
+    <choice>Dial up service</choice>
+    <choice>Digital subscriber line</choice>
+    <correct>Cable modem</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>TCP stands for</question>
+    <choice>Transmission Communicational Protocol</choice>
+    <choice>Transmission Control Protocol</choice>
+    <choice>Transistor Control Protocol</choice>
+    <choice>Transform Control Protocol</choice>
+    <correct>Transmission Control Protocol</correct>
+</multiple_choice_question>
+</questions_difficulty>
+<questions_difficulty>
+<multiple_choice_question>
+    <question>Which protocol helps to transfer files between computers?</question>
+    <choice>HTTP</choice>
+    <choice>FTP</choice>
+    <choice>HTTPS</choice>
+    <choice>None of the above</choice>
+    <correct>FTP</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>HTML is a</question>
+    <choice>Scripting Language</choice>
+    <choice>Web Browser</choice>
+    <choice>Programming Language</choice>
+    <choice>Network Protocol</choice>
+    <correct>Scripting Language</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>SMTP stands for</question>
+    <choice>Simple Mail Terminal Protocol</choice>
+    <choice>Simple Mail Transport Protocol</choice>
+    <choice>Simple Mail Transfer Protocol</choice>
+    <choice>Simple Mail Transition Protocol</choice>
+    <correct>Simple Mail Transfer Protocol</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>XML stands for</question>
+    <choice>Extended Markup Language</choice>
+    <choice>Extended Marking Links</choice>
+    <choice>Extra Markup Language</choice>
+    <choice>None of the above</choice>
+    <correct>Extended Markup Language</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>Internet uses</question>
+    <choice>Circuit switching</choice>
+    <choice>Telephone switching</choice>
+    <choice>Packet switching</choice>
+    <choice>Telex switching</choice>
+    <correct>Packet switching</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>In which way a host on the internet finds another host?</question>
+    <choice>IP address</choice>
+    <choice>Protocol</choice>
+    <choice>URL</choice>
+    <choice>E-mail</choice>
+    <correct>IP address</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>An educational institution would generally have the following in its domain name.</question>
+    <choice>.org</choice>
+    <choice>.edu</choice>
+    <choice>.com</choice>
+    <choice>.uk</choice>
+    <correct>.edu</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>Internet was developed in the</question>
+    <choice>1950s</choice>
+    <choice>1960s</choice>
+    <choice>1970s</choice>
+    <choice>1980s</choice>
+    <correct>1950s</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>A website is a collection of</question>
+    <choice>Charts</choice>
+    <choice>Algorithms</choice>
+    <choice>Web pages</choice>
+    <choice>Programs</choice>
+    <correct>Web pages</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>IPV4 address is</question>
+    <choice>32 bit</choice>
+    <choice>64 bit</choice>
+    <choice>128 bit</choice>
+    <choice>516 bit</choice>
+    <correct>32 bit</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>FTP stands for</question>
+    <choice>Fast Text Processing</choice>
+    <choice>Fast Transmission Processor</choice>
+    <choice>File Transfer Protocol</choice>
+    <choice>File Transmission Program</choice>
+    <correct>File Transfer Protocol</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>What is URL?</question>
+    <choice>A computer program</choice>
+    <choice>A type of programming object</choice>
+    <choice>An acronym for unlimited resource for learning</choice>
+    <choice>The address of a document or ‘page’ on the world wide web</choice>
+    <correct>The address of a document or ‘page’ on the world wide web</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>The vast network of computers that connects millions of people all over the world is called</question>
+    <choice>Hypertext</choice>
+    <choice>Gateway</choice>
+    <choice>Web</choice>
+    <choice>Internet</choice>
+    <correct>Internet</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>The common name for a modulator–demodulator is</question>
+    <choice>Modem</choice>
+    <choice>Networker</choice>
+    <choice>Connector</choice>
+    <choice>Jointer</choice>
+    <correct>Modem</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>TCP/IP is a</question>
+    <choice>Protocol</choice>
+    <choice>Network Hardware</choice>
+    <choice>Network Software</choice>
+    <choice>None of these</choice>
+    <correct>Protocol</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>Protocol which is used to access web pages on world wide web is</question>
+    <choice>ethernet</choice>
+    <choice>gopher</choice>
+    <choice>HTTP</choice>
+    <choice>HTML</choice>
+    <correct>HTTP</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>Domain name is the text version of</question>
+    <choice>IP address</choice>
+    <choice>Hyperlink</choice>
+    <choice>Username</choice>
+    <choice>Web address</choice>
+    <correct>IP address</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>The internet was originally a project of</question>
+    <choice>ARPA</choice>
+    <choice>NSF</choice>
+    <choice>NSA</choice>
+    <choice>ISO</choice>
+    <correct>ARPA</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>In the web address, https://www.facebook.com, http is the</question>
+    <choice>URL</choice>
+    <choice>domain name</choice>
+    <choice>protocol</choice>
+    <choice>extension</choice>
+    <correct>protocol</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>Computer that manages sending and receiving of emails is called</question>
+    <choice>mail server</choice>
+    <choice>web browser</choice>
+    <choice>HTTP</choice>
+    <choice>outlook</choice>
+    <correct>mail server</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>In the general format of URL, type://address/path, path is the</question>
+    <choice>path of the page on the disk of the server</choice>
+    <choice>path of page to open the software</choice>
+    <choice>path of the email address to open email</choice>
+    <choice>path of the server</choice>
+    <correct>path of the page on the disk of the server</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>In the email address me@pu.edu, "me" is the</question>
+    <choice>password</choice>
+    <choice>server name</choice>
+    <choice>username</choice>
+    <choice>client computer</choice>
+    <correct>username</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>Whenever crawler crawls the website then any page that don't have a link is called as</question>
+    <choice>dead end page</choice>
+    <choice>absolute page</choice>
+    <choice>home page</choice>
+    <choice>door way page</choice>
+    <correct>dead end page</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>Software which allows user to view the webpage is called</question>
+    <choice>operating system</choice>
+    <choice>internet browser</choice>
+    <choice>interpreter</choice>
+    <choice>website</choice>
+    <correct>internet browser</correct>
+</multiple_choice_question>
+<multiple_choice_question>
+    <question>In the Client-server model, the client receives a request from the server.</question>
+    <choice>True</choice>
+    <choice>False</choice>
+    <correct>False</correct>
+</multiple_choice_question>
+</questions_difficulty>
+</multiple_choice_questions_game>
