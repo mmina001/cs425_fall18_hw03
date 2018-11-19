@@ -42,7 +42,7 @@
   <meta name="description" content="Implementation of a questions game using PHP">
   <meta name="keywords" content="questions,choices,multiple choice">
   <title>Questions Game</title>
-  <link rel="icon" href="" type="image/jpg">
+  <link rel="icon" href="favicon.jpg" type="image/jpg">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="index-style.css">
