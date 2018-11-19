@@ -598,10 +598,12 @@
     <correct>internet browser</correct>
 </multiple_choice_question>
 <multiple_choice_question>
-    <question>In the Client-server model, the client receives a request from the server.</question>
-    <choice>True</choice>
-    <choice>False</choice>
-    <correct>False</correct>
+    <question>HTML markup language is a set of markup</question>
+    <choice>tags</choice>
+    <choice>attributes</choice>
+    <choice>groups</choice>
+    <choice>sets</choice>
+    <correct>tags</correct>
 </multiple_choice_question>
 </questions_difficulty>
 </multiple_choice_questions_game>

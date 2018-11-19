@@ -36,6 +36,9 @@
       </ul>
     </nav> 
 </header>
+
+<a href="#top" id="myBtn" title="Go to top">Top</a>
+
 <?php
     if (!file_exists('players_scores.txt')){ ?>
         <h1 class="display-4">No scores to display</h1>
@@ -90,11 +93,7 @@
         </table> 
         <br>
     <?php } ?>
-
-<footer>
-  <a href="#" class="fa fa-facebook"></a>
-  <a href="#" class="fa fa-twitter"></a>
-  <a href="#" class="fa fa-instagram"></a>
-</footer>
+    <footer>
+    </footer>
 </body>
 </html>

@@ -36,6 +36,9 @@
       </ul>
     </nav> 
   </header>
+
+  <a href="#top" id="myBtn" title="Go to top">Top</a>
+
   <h4>This is a questions game related to Internet technologies knowledge. To start the game press the button start.
      By clicking the start button the first question will appear with multiple choice answers. You can select only
      one answer, by clicking on the answer that you think is the correct one. After you choose an answer you must 
@@ -48,9 +51,6 @@
      button Return to start in order to return at start page.  
 </h4> 
 <footer>
-  <a href="#" class="fa fa-facebook"></a>
-  <a href="#" class="fa fa-twitter"></a>
-  <a href="#" class="fa fa-instagram"></a>
 </footer>
 </body>
 </html>

@@ -110,7 +110,7 @@
       $_SESSION['random']=mt_rand(0,$max);
     }
   ?>
-<header>
+  <header>
     <nav class="navbar fixed-top navbar-expand-sm bg-dark navbar-dark">
       <ul class="navbar-nav">
         <li class="nav-item active">
@@ -126,6 +126,8 @@
     </nav>
   </header>
 
+  <a href="#top" id="myBtn" title="Go to top">Top</a>
+
   <form action="" method="post">
     <?php if($_SESSION['flag']==0) { ?>
       <h1 class="display-4">Welcome to our Questions Game!Are you ready to test your knowledge?</h1>
@@ -140,16 +142,27 @@
       if($_SESSION['num_question']<=$_SESSION['max_questions']){ ?>
         <h1 class="display-4"><?php echo $_SESSION['xml_array']['questions_difficulty'][$_SESSION['difficulty']]['multiple_choice_question'][$_SESSION['random']]['question'];?><h1>
         <label><input type="radio" name="choice_btn" value="<?php echo $_SESSION['xml_array']['questions_difficulty'][$_SESSION['difficulty']]['multiple_choice_question'][$_SESSION['random']]['choice'][0];?>"/><?php echo $_SESSION['xml_array']['questions_difficulty'][$_SESSION['difficulty']]['multiple_choice_question'][$_SESSION['random']]['choice'][0];?></label>
+        <br>
         <label><input type="radio" name="choice_btn" value="<?php echo $_SESSION['xml_array']['questions_difficulty'][$_SESSION['difficulty']]['multiple_choice_question'][$_SESSION['random']]['choice'][1];?>"/><?php echo $_SESSION['xml_array']['questions_difficulty'][$_SESSION['difficulty']]['multiple_choice_question'][$_SESSION['random']]['choice'][1];?></label>
+        <br>
         <label><input type="radio" name="choice_btn" value="<?php echo $_SESSION['xml_array']['questions_difficulty'][$_SESSION['difficulty']]['multiple_choice_question'][$_SESSION['random']]['choice'][2];?>"/><?php echo $_SESSION['xml_array']['questions_difficulty'][$_SESSION['difficulty']]['multiple_choice_question'][$_SESSION['random']]['choice'][2];?></label>
+        <br>
         <label><input type="radio" name="choice_btn" value="<?php echo $_SESSION['xml_array']['questions_difficulty'][$_SESSION['difficulty']]['multiple_choice_question'][$_SESSION['random']]['choice'][3];?>"/><?php echo $_SESSION['xml_array']['questions_difficulty'][$_SESSION['difficulty']]['multiple_choice_question'][$_SESSION['random']]['choice'][3];?></label>
-        <label><?php echo $_SESSION['num_question'] ?></label><label>/</label><label><?php echo $_SESSION['max_questions'] ?></label>
+        <br><br>
+
+        <div>
+          <label><?php echo $_SESSION['num_question'] ?></label>
+          <label>/</label>
+          <label><?php echo $_SESSION['max_questions'] ?></label>
+        </div>
+        <br>
         <?php if($_SESSION['num_question']<$_SESSION['max_questions']){ ?>
-          <input type="submit" value="Next" name="Next" />
+          <input  class="btn btn-success btn-lg" type="submit" value="Next" name="Next" id="next" />
         <?php }else if($_SESSION['num_question']==$_SESSION['max_questions']){ ?>
-          <input type="submit" value="Finish" name="Finish" />
+          <input class="btn btn-danger btn-lg" type="submit" value="Finish" name="Finish" id="finish" />
         <?php } 
       }else { ?> 
+         <h1 class="display-4">Score</h1>
         <div class="table-responsive">
         <table class="table table-hover">
           <thead>
@@ -173,22 +186,20 @@
           } ?>
           </tbody>
         </table> 
-        <br>
         <h2 style="text-align:center">Overall Score: <?php echo $_SESSION['overall_score'] ?></h2>   
         <div class="form-group">
           <input type="text" class="form-control form-control-lg" placeholder="Enter a nickname" name="nickname">
         </div>
-        <input type="submit" value="Save Score" name="saveScore" />
-        <input type="submit" value="Return to start" name="returnStart" />
+        <div class="col-12 text-center">
+          <input class="btn btn-danger btn-lg" type="submit" value="Save Score" name="saveScore" id="save" />
+          <input class="btn btn-primary btn-lg" type="submit" value="Return to start" name="returnStart" id="return" />
+        </div>
       <?php } 
     } ?>
     </div>
   </form>
 
-<footer>
-  <a href="#" class="fa fa-facebook"></a>
-  <a href="#" class="fa fa-twitter"></a>
-  <a href="#" class="fa fa-instagram"></a>
-</footer>
+  <footer>
+  </footer>
 </body>
 </html>
