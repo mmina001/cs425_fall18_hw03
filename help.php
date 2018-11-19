@@ -24,10 +24,10 @@
 <header>
     <nav class="navbar fixed-top navbar-expand-sm bg-dark navbar-dark">
       <ul class="navbar-nav">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="index.php">Home Page</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="help.php">Help Page</a>
         </li>
         <li class="nav-item">
@@ -38,7 +38,7 @@
   </header>
 
   <a href="#top" id="myBtn" title="Go to top">Top</a>
-
+  <h1 class="display-4">Instruction for the game</h1>
   <h4>This is a questions game related to Internet technologies knowledge. To start the game press the button start.
      By clicking the start button the first question will appear with multiple choice answers. You can select only
      one answer, by clicking on the answer that you think is the correct one. After you choose an answer you must 

@@ -24,13 +24,13 @@
 <header>
     <nav class="navbar fixed-top navbar-expand-sm bg-dark navbar-dark">
       <ul class="navbar-nav">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="index.php">Home Page</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="help.php">Help Page</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="scores.php">High Scores Page</a>
         </li>
       </ul>
@@ -71,7 +71,7 @@
         } ?>
         <h1 class="display-4"><?php echo "Top $size players" ?></h1>
         <div class="table-responsive">
-        <table class="table table-hover">
+        <table id="scores_t" class="table table-hover">
           <thead>
             <tr>
               <th scope="col">#</th>

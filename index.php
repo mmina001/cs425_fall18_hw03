@@ -1,6 +1,15 @@
 <?php
   session_start();
-  $_SESSION['max_questions']=6;
+  if(!isset($_SESSION['flag'])){
+    $_SESSION['flag']=0;
+  }else if($_SESSION['flag']==0){
+    session_unset();
+    session_destroy();
+    $_SESSION['flag']=0;
+  }
+  $result="";
+  $refresh=0;
+  $_SESSION['max_questions']=1;
   if(!isset($_SESSION['xml_array'])){
     $source = 'questions.xml';
     // load as string
@@ -21,9 +30,6 @@
   }
   if(!isset($_SESSION['num_question'])){
     $_SESSION['num_question']=1;
-  }
-  if(!isset($_SESSION['flag'])){
-    $_SESSION['flag']=0;
   }
 ?>
 <!DOCTYPE html>
@@ -88,26 +94,18 @@
       if (isset($_POST['saveScore'])) {
         $txt =  $_POST['nickname']."\t".$_SESSION['overall_score']."\n"; 
         if(file_put_contents("players_scores.txt", $txt,FILE_APPEND) === strlen($txt)){
+          $result='<div class="alert alert-success">Success!!!</div>';
         }else{
+          $result='<div class="alert alert-danger">Failure...</div>';
         }
-        session_unset();
-        session_destroy();
-        echo "<meta http-equiv='refresh' content='0'>";
-        exit;
+        $refresh=1;
       }
-
       if (isset($_POST['returnStart'])) {
         session_unset();
         session_destroy();
-        echo "<meta http-equiv='refresh' content='0'>";
-        exit;
+        $_SESSION['flag']=0;
       }
 
-    }
-    if($_SESSION['flag']==1){
-      $max=sizeof($_SESSION['xml_array']['questions_difficulty'][$_SESSION['difficulty']]['multiple_choice_question']);
-      $max-=1;
-      $_SESSION['random']=mt_rand(0,$max);
     }
   ?>
   <header>
@@ -138,8 +136,11 @@
           </div>
         </div>
       </div>
-    <?php }else {
-      if($_SESSION['num_question']<=$_SESSION['max_questions']){ ?>
+    <?php }else if($_SESSION['flag']==1) {
+      if($_SESSION['num_question']<=$_SESSION['max_questions']){ 
+        $max=sizeof($_SESSION['xml_array']['questions_difficulty'][$_SESSION['difficulty']]['multiple_choice_question']);
+        $max-=1;
+        $_SESSION['random']=mt_rand(0,$max); ?>
         <h1 class="display-4"><?php echo $_SESSION['xml_array']['questions_difficulty'][$_SESSION['difficulty']]['multiple_choice_question'][$_SESSION['random']]['question'];?><h1>
         <label><input type="radio" name="choice_btn" value="<?php echo $_SESSION['xml_array']['questions_difficulty'][$_SESSION['difficulty']]['multiple_choice_question'][$_SESSION['random']]['choice'][0];?>"/><?php echo $_SESSION['xml_array']['questions_difficulty'][$_SESSION['difficulty']]['multiple_choice_question'][$_SESSION['random']]['choice'][0];?></label>
         <br>
@@ -193,13 +194,24 @@
         <div class="col-12 text-center">
           <input class="btn btn-danger btn-lg" type="submit" value="Save Score" name="saveScore" id="save" />
           <input class="btn btn-primary btn-lg" type="submit" value="Return to start" name="returnStart" id="return" />
+          <div id="msg" class="form-group">
+            <div class="col-12 text-center">
+              <?php 
+                echo $result; 
+                if($refresh==1){
+                  $_SESSION['flag']=0;
+                  echo "<meta http-equiv='refresh' content='1'>";
+                }
+              ?>    
+            </div>
+          </div>
         </div>
       <?php } 
     } ?>
     </div>
   </form>
 
-  <footer>
-  </footer>
+<footer>
+</footer>
 </body>
 </html>

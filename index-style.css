@@ -22,6 +22,7 @@ h1{
     text-align: center;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     padding: 10px 36px;
+    margin-bottom:100px;
 }
 
 #next,#finish{
@@ -30,6 +31,7 @@ h1{
     text-align: center;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     margin-bottom: 20px;
+    margin-bottom:100px;
 }
 
 #save,#return{
@@ -38,6 +40,7 @@ h1{
     text-align: center;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     margin-bottom: 20px;
+    margin-bottom:100px;
 }
 
 #myBtn {
@@ -60,14 +63,32 @@ h1{
     background-color: grey; 
 }
 
-footer {
-    background: rgba(28, 32, 36, 1);
-    bottom:0;
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    height: 60px;
-    text-align: center;
+#msg{
+    margin-bottom:100px;
 }
+
+h4{
+    margin-bottom:100px;
+}
+
+#scores_t{
+    margin-bottom:100px;
+}
+
+footer {
+    background-color:rgba(28, 32, 36, 1);
+    width:100%;
+    text-align: center;
+    bottom: 0;
+    height:70px;
+    position: fixed;
+}
+
+@media screen and (max-width: 600px){
+    #save,#return{
+        margin-bottom:10px;
+    }
+}
+
 
 
