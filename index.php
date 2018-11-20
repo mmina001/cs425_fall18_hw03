@@ -204,7 +204,7 @@
                 echo $result; 
                 if($refresh==1){
                   $_SESSION['flag']=0;
-                  echo "<meta http-equiv='refresh' content='2'>";
+                  echo "<meta http-equiv='refresh' content='3'>";
                 }
               ?>    
             </div>

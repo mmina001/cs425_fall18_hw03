@@ -85,7 +85,10 @@ footer {
 }
 
 @media screen and (max-width: 600px){
-    #next,#finish,#end,#save,#return{
+    #save,#return{
+        margin-bottom:10px;
+    }
+    #next,#finish,#end{
         margin-bottom:30px;
     }
 }
