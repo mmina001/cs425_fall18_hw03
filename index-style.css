@@ -25,7 +25,7 @@ h1{
     margin-bottom:100px;
 }
 
-#next,#finish{
+#next,#finish,#end{
     border-radius: 10px;
     font-size: 1em;
     text-align: center;
@@ -85,8 +85,8 @@ footer {
 }
 
 @media screen and (max-width: 600px){
-    #save,#return{
-        margin-bottom:10px;
+    #next,#finish,#end,#save,#return{
+        margin-bottom:30px;
     }
 }
 

@@ -9,7 +9,7 @@
   }
   $result="";
   $refresh=0;
-  $_SESSION['max_questions']=1;
+  $_SESSION['max_questions']=6;
   if(!isset($_SESSION['xml_array'])){
     $source = 'questions.xml';
     // load as string
@@ -100,7 +100,7 @@
         }
         $refresh=1;
       }
-      if (isset($_POST['returnStart'])) {
+      if (isset($_POST['returnStart']) || isset($_POST['end']) ) {
         session_unset();
         session_destroy();
         $_SESSION['flag']=0;
@@ -139,7 +139,7 @@
     <?php }else if($_SESSION['flag']==1) {
       if($_SESSION['num_question']<=$_SESSION['max_questions']){ 
         $max=sizeof($_SESSION['xml_array']['questions_difficulty'][$_SESSION['difficulty']]['multiple_choice_question']);
-        $max-=1;
+        $max-=2;
         $_SESSION['random']=mt_rand(0,$max); ?>
         <h1 class="display-4"><?php echo $_SESSION['xml_array']['questions_difficulty'][$_SESSION['difficulty']]['multiple_choice_question'][$_SESSION['random']]['question'];?><h1>
         <label><input type="radio" name="choice_btn" value="<?php echo $_SESSION['xml_array']['questions_difficulty'][$_SESSION['difficulty']]['multiple_choice_question'][$_SESSION['random']]['choice'][0];?>"/><?php echo $_SESSION['xml_array']['questions_difficulty'][$_SESSION['difficulty']]['multiple_choice_question'][$_SESSION['random']]['choice'][0];?></label>
@@ -156,11 +156,15 @@
           <label>/</label>
           <label><?php echo $_SESSION['max_questions'] ?></label>
         </div>
-        <br>
+        <?php $sub=$_SESSION['max_questions']-$_SESSION['num_question'];  ?>
+        <label><?php echo "Remaining Questions: $sub"; ?></label>
+        <br><br>
         <?php if($_SESSION['num_question']<$_SESSION['max_questions']){ ?>
           <input  class="btn btn-success btn-lg" type="submit" value="Next" name="Next" id="next" />
+          <input class="btn btn-danger btn-lg" type="submit" value="End" name="end" id="end" />
         <?php }else if($_SESSION['num_question']==$_SESSION['max_questions']){ ?>
-          <input class="btn btn-danger btn-lg" type="submit" value="Finish" name="Finish" id="finish" />
+          <input class="btn btn-success btn-lg" type="submit" value="Finish" name="Finish" id="finish" />
+          <input class="btn btn-danger btn-lg" type="submit" value="End" name="end" id="end" />
         <?php } 
       }else { ?> 
          <h1 class="display-4">Score</h1>
@@ -200,7 +204,7 @@
                 echo $result; 
                 if($refresh==1){
                   $_SESSION['flag']=0;
-                  echo "<meta http-equiv='refresh' content='1'>";
+                  echo "<meta http-equiv='refresh' content='2'>";
                 }
               ?>    
             </div>
