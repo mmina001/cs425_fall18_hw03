@@ -2,10 +2,6 @@
   session_start();
   if(!isset($_SESSION['flag'])){
     $_SESSION['flag']=0;
-  }else if($_SESSION['flag']==0){
-    session_unset();
-    session_destroy();
-    $_SESSION['flag']=0;
   }
   $result="";
   $refresh=0;
@@ -63,6 +59,7 @@
       if(isset($_POST['choice_btn'])){
         array_push($_SESSION['array_difficulty'],$_SESSION['difficulty']);
         $choice = $_POST['choice_btn'];
+        echo $_SESSION['random']; 
         $correct = $_SESSION['xml_array']['questions_difficulty'][$_SESSION['difficulty']]['multiple_choice_question'][$_SESSION['random']]['correct'];
         if(strcmp($choice,$correct) == 0){
           array_push($_SESSION['array_answers'],1);
@@ -203,6 +200,8 @@
               <?php 
                 echo $result; 
                 if($refresh==1){
+                  session_unset();
+                  session_destroy();
                   $_SESSION['flag']=0;
                   echo "<meta http-equiv='refresh' content='3'>";
                 }
